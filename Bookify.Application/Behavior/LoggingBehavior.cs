@@ -18,6 +18,7 @@ namespace Bookify.Application.Behavior
         public LoggingBehavior(ILogger<TRequest> logger)
         {
             _logger = logger;
+            //adding logging
         }
 
         public async Task<TResponse> Handle
